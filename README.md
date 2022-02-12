@@ -18,6 +18,9 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
+###
+  Link to site - https://kentmichael.github.io/social-proof-section/
+
 ### Useful resources
 
 https://developer.mozilla.org/en-US/
