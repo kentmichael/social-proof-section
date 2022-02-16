@@ -50,12 +50,17 @@ h1 {
   font-size: 2em;
 }
 
+.rating-star-section, .rating-review-section {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 20px;
+}
+
 div[class^=rating-star-card] {
   background-color: var(--light-grayish-magenta);
   font-weight: var(--font-weight-lg);
   padding: 10px;
   border-radius: 10px;
-  margin-bottom: 20px;
 }
 
 div[class^=rating-review-card] {
@@ -65,7 +70,6 @@ div[class^=rating-review-card] {
   text-align: left;
   padding: 30px;
   border-radius: 10px;
-  margin-bottom: 20px;
 }
 
 span {
